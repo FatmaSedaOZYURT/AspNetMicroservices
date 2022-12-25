@@ -4,12 +4,12 @@ AspNetMicroservices
 <ul>
 <li>
 To Download
-<p>> docker pull mongo </p>
+<p>> docker pull rtsp/mongosh </p>
 </li>
 <li>
 To Run For Local PC Port
 <b><p>>docker run -d -p [portNumber]:[portNumber] --name [containerName] [imageName]</p></b>
-<p>>docker run -d -p 27017:27017 -name shopping-mongo mongo</p>
+<p>>docker run -d -p 27017:27017 --name shopping-mongo rtsp/mongosh</p>
 </li>
 <li>
 To See Logs
