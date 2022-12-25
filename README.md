@@ -19,10 +19,12 @@ To See Logs
 Interactive Terminal - Bash Command
 <p>> docker exec -it shopping-mongo /bin/bash </p>
   <hr>
-  <b>If bash is not have, should run this codes: 
+  <b>If bash is not have, should run this codes: </b>
     <p>apt-get update</p>
     <p>apt-get install -y mongodb</p>
-</b>
+
   <hr>
+  <br>*OR*</b>
+  <p>docker exec -it shopping-mongo mongosh</p>
 </li>
 </ul>
