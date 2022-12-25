@@ -26,5 +26,6 @@ Interactive Terminal - Bash Command
   <hr>
   <br>*OR*</b>
   <p>docker exec -it shopping-mongo mongosh</p>
+  <hr>
 </li>
 </ul>
