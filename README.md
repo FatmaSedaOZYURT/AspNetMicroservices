@@ -26,4 +26,13 @@ Interactive Terminal - Bash Command
   <p>docker exec -it shopping-mongo mongosh</p>
   <hr>
 </li>
+<li>
+Create DB
+<p>> mongo </p>
+  <p>> use CatalogDb </p>
+  <p>To create collection: > db.createCollection('Products') </p>
+  <p><b>To Add Data:</b>
+  <p>db.Products.insertMany([{'Name':'Asus Laptop','Category':'Computers', 'Summary':'Summary', 'Description':'Description', 'ImageFile':'ImageFile', 'Price':54.56},{'Name':'HP Laptop','Category':'Computers', 'Summary':'Summary', 'Description':'Description', 'ImageFile':'ImageFile', 'Price':66.56}])</p>
+</p>
+</li>
 </ul>
