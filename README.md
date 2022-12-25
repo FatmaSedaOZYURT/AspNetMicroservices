@@ -15,4 +15,8 @@ To Run For Local PC Port
 To See Logs
 <p>> docker logs -f shopping-mongo </p>
 </li>
+<li>
+Interactive Terminal - Bash Command
+<p>> docker exec -it shopping-mongo /bin/bash </p>
+</li>
 </ul>
