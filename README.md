@@ -34,5 +34,11 @@ Create DB
   <p><b>To Add Data:</b>
   <p>db.Products.insertMany([{'Name':'Asus Laptop','Category':'Computers', 'Summary':'Summary', 'Description':'Description', 'ImageFile':'ImageFile', 'Price':54.56},{'Name':'HP Laptop','Category':'Computers', 'Summary':'Summary', 'Description':'Description', 'ImageFile':'ImageFile', 'Price':66.56}])</p>
 </p>
+<p>To list data: > db.Products.find({}).pretty()</p>
+<p>To delete datas: > db.Products.remove({})</p>
 </li>
+<li>
+  <p>To Show DB: >show databases</p>
+  <p>To Show Collections: >show collections</p>
+  </li>
 </ul>
