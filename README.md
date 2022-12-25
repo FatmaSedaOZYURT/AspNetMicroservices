@@ -22,8 +22,6 @@ Interactive Terminal - Bash Command
   <b>If bash is not have, should run this codes: </b>
     <p>apt-get update</p>
     <p>apt-get install -y mongodb</p>
-
-  <hr>
   <br>*OR*</b>
   <p>docker exec -it shopping-mongo mongosh</p>
   <hr>
